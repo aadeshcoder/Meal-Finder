@@ -7,8 +7,6 @@ export default function Search() {
   return (
     <section>
       <input type="text" onChange={(event) => setText(event.target.value)} />
-      <button onClick={() => console.log("Search Click")}>Search</button>
-      <button>Shuffle</button>
       <Result searchText={text} />
     </section>
   );

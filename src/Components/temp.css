@@ -1,0 +1,21 @@
+.mealImgBtn:hover {
+  opacity: 0.6;
+  border: 5px solid orange;
+  transition: 0.3s;
+}
+
+.imgBtn:focus {
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+
+.mealImgBtn {
+  transition: 0.3s;
+  border: 5px solid yellow;
+}
+
+.imgBtn {
+  transition: 0.3s;
+  border: none;
+  background-color: transparent;
+}
