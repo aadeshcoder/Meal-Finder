@@ -6,7 +6,12 @@ export default function Search() {
   // console.log(text);
   return (
     <section>
-      <input type="text" onChange={(event) => setText(event.target.value)} />
+      <input
+        className="searchInp"
+        type="text"
+        placeholder="Search Here.."
+        onChange={(event) => setText(event.target.value)}
+      />
       <Result searchText={text} />
     </section>
   );

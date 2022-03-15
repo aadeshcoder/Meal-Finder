@@ -20,6 +20,7 @@ export default function Result({ searchText }) {
   return (
     <div>
       <button
+        className="formBtn"
         onClick={() => {
           if (searchText === "") {
             alert("Please Enter the Meal Name");
@@ -48,7 +49,7 @@ export default function Result({ searchText }) {
       >
         Search
       </button>
-      <button>Shuffle</button>
+      <button className="formBtn">Shuffle</button>
       {SearchRes !== undefined ? <SearchResult item={SearchRes} /> : null}
     </div>
   );
